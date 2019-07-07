@@ -1,0 +1,59 @@
+AttributeName,Attribute Description
+Contest,A particular race for a specific office
+ElectionLvl,"Federal, State, Local"
+ElectionType,"Primary, General, Other"
+Grain,Each observation is an aggregate of both registered voters and election results by Precinct and consolidated down to polling location
+Year,The year of the election
+PrecinctAddress,Geographic address for the polling location 
+Zipcode,Zip code for the polling location 
+City,City where polling location resides 
+State,State where polling location resides 
+County,County where polling location resides 
+RegVoters,Registered voters at a polling location as identified by official voting results as published by the state of Florida. Can be found at https://dos.myflorida.com/elections/data-statistics/elections-data/precinct-level-election-results/
+REP,Votes for the Republican candidate by polling location
+DEM,Votes for the Democratic candidate by polling location
+WRI,Write-in votes by polling location
+OVER,Over-count votes by polling location
+UNDER,Under-count votes by polling location
+RegVoterFinal,"Registered voters at a polling location as identified by official voting registration results as published by the state of Florida. Results are published monthly and mailed out on disk. For this dataset, the voter registration values are as of Oct 15 2018. This is the registration deadline and should reflect all registered voters eligible for the 2018 election"
+RegVoterCngRate,RegVoters / RegVoterFinal. This a measure of the change between what the election results state and what the final voter registration records state
+RepRegRate,RepReg / RegVoterFinal. This is the proportion of registered Republican voters to the total registered voter count per voter registration records
+RepRegVoterParticipation,REP / RegVoters. This is a proportion of votes the Republican candidate received against all registered voters per election results data
+RepRegVoterFinalParticipation,REP / RegVotersFinal. This is a proportion of votes the Republican candidate received against all registered voters per voter registration records
+RepRegVoterParticipationCng,RepRegVoterParticipation - RepRegVoterFinalParticipation. This is a measure of the increase or decrease of proportionality between Republican voter participation and the registered voter count per the election results and per registered voter records.
+RepRegVoterSpecificParticipation,REP / RepReg. This is a proportion of votes the Republican candidate received against all registered Republicans per voter registration records
+DemRegRate,DemReg / RegVoterFinal. This is the proportion of registered Democratic voters to the total registered voter count per voter registration records
+DemRegVoterParticipation,DEM / RegVoters. This is a proportion of votes the Democratic candidate received against all registered voters per election results data
+DemRegVoterFinalParticipation,DEM / RegVotersFinal. This is a proportion of votes the Democratic candidate received against all registered voters per voter registration records
+DemRegVoterParticipationCng,DemRegVoterParticipation - DemRegVoterFinalParticipation. This is a measure of the increase or decrease of proportionality between Democratic voter participation and the registered voter count per the election results and per registered voter records.
+DemRegVoterSpecificParticipation,DEM / DemReg. This is a proportion of votes the Democratic candidate received against all registered Democrats per voter registration records
+TotalParticipationRate,RepRegVoterParticipation + DemRegVoterParticipation. 
+TotalFinalParticipationRate,RepRegVoterFinalParticipation + DemRegVoterFinalParticipation. 
+RegNpaRate,NpaReg / RegVoterFinal. This is the proportion of registered voters with no political affiliation. This becomes a type of error term in understanding voting behavior.
+NativeAmerican,Registered voter who identifies as Native American or an indigenous people. Per voter registration records
+AsianPacIsl,Registered voter who identifies as Asian or Pacific Islander. Per voter registration records
+AfricanAmerican,Registered voter who identifies as African American. Per voter registration records
+Hispanic,Registered voter who identifies as Hispanic. Per voter registration records
+White,Registered voter who identifies as White. Per voter registration records
+Other,Registered voter who identifies as some other race. Per voter registration records
+Multi,Registered voter who identifies as multi-racial. Per voter registration records
+Unk,Registered voter who has no identified race. Per voter registration records
+Male,Registered voter who identifies as male . Per voter registration records
+Female,Registered voter who identifies as female . Per voter registration records
+GenderUnk,Registered voter who as no identified gender . Per voter registration records
+Active,Registered voter who has voted in at least the last general election . Per voter registration records
+Inactive,Registered voter who has not voted in at least the last general election . Per voter registration records
+CPF,Registered voter as Constitutional Party . Per voter registration records
+DemReg,Registered voter as Democrat. Per voter registration records
+ECO,Registered voter as ECO. Per voter registration records
+GRE,Registered voter as Green. Per voter registration records
+IND,Registered voter as Independent. Per voter registration records
+LPF,Registered voter as Libertarian. Per voter registration records
+NpaReg,Registered voter as no political affiliation. Per voter registration records
+PSL,Registered voter as PSL. Per voter registration records
+REF,Registered voter as Reform. Per voter registration records
+RepReg,Registered voter as Republican. Per voter registration records
+under25,Registered voter under 25. Per voter registration records
+btwn2544,Registered voter between 25 and 44. Per voter registration records
+btwn4564,Registered voter between 45 and 64. Per voter registration records
+over65,Registered voter over 65. Per voter registration records
